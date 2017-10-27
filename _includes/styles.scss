@@ -200,6 +200,7 @@ body {
   background-repeat: no-repeat;
   background-position: center; 
   padding: 15px;
+  position:relative;
 
   .blog-title {
     margin-bottom: 8px;
@@ -222,23 +223,25 @@ body {
   }
 
   .bio{
-    margin-top:350px;
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    margin: auto;
+    bottom: 25px;
     h4{
       max-width: 800px;
       margin:auto;
       font-weight: 400;
       font-style: normal;
-      font-size: 22px;
+      font-size: 20px;
       line-height: 1.2;
       letter-spacing: -.002em;
-      margin-top: 100px;
-      margin-bottom: 100px;
       color: #fff;
       -webkit-hyphens: none;
       -moz-hyphens: none;
       hyphens: none;
       text-align: justify;
-      font-weight: 600;
+      font-weight: 500;
     }
   }
 
