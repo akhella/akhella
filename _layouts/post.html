@@ -1,0 +1,39 @@
+---
+layout: default
+---
+<div class="post-image"></div>
+<main class="content" role="main">
+  <article class="post">
+    <div class="post-meta">
+      <h1 class="post-title">{{ page.title }}</h1>
+    </div>
+
+    <section class="post-content">
+      <a name="topofpage"></a>
+      {{content}}
+    </section>
+    <footer class="post-footer">
+      <section class="share">
+          {% include share_page.html%}
+      </section>
+      <section class="newsletter">
+          {% include newsletter_page.html%}
+      </section>
+    </footer>
+    <div class="bottom-teaser cf">
+      <h5 class="index-headline featured"><span>Written by</span></h5>
+      <h4>{{ site.name }}</h4>
+      <section class="author">
+        <div class="author-image"></div>
+        <p class="bio">{{site.bio}}</p>
+        <p>
+          <span>
+            {% if site.twitter_username %}
+              {% include icon-twitter.html username=site.twitter_username %}
+            {% endif %}
+          </span>
+        </p>
+      </section>
+    </div>
+  </article>
+</main>

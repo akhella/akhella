@@ -1,28 +1,70 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Hank Quinlan, Horrible Cop</title>
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Amir Khella!</h1>
-				<p>I am an entrepreneur, designer, engineer, and author...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:akhella@gmail.com">email</a></li>
-        		<li><a href="https://github.com/akhella">github.com/akhella</a></li>
-			</ul>
-		</footer>
-	</body>
-</html>
+---
+layout: default
+---
+
+<main class="content" role="main">
+
+  <!-- <header class="blog-header">
+      <h1 class="blog-title">{{ site.title }}</h1>
+      <h2 class="blog-description">{{ site.description }}</h2>
+  </header> -->
+
+
+  <header class="blog-header">
+    <a class="author-image" href="http://twitter.com/amirkhella" target="_blank"></a>
+    <div class="bio">
+      <h4>{{ site.bio }}</h4>
+    </div>
+</header>
+
+  <h1 style="text-align:center; font-weight:800; font-size:2.25rem; color:#333332">Featured Articles</h1>
+
+  <div class="cf frame">
+    {% for post in site.posts %}
+      {% if post.featured == true %}
+      <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
+        <div class="article-item">
+          <header class="post-header">
+            <h3 class="post-title" itemprop="name"><a href="{{ site.baseurl }}{{ post.url }}" itemprop="url">{{ post.title }}</a></h3>
+          </header>
+          <a href="{{ site.baseurl }}{{ post.url }}" itemprop="url"><div class="post-thumbnail" style="background-image: url({{ site.baseurl }}{{post.image}});"></div></a>
+          <section class="post-excerpt" itemprop="description">
+            <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+            <a class="read-more" href="{{ site.baseurl }}{{ post.url }}">Read more...</a>
+          </section>
+          <!-- <div class="post-meta">
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</time>
+          </div> -->
+        </div>
+      </article>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <div class="more-button">
+    <a href="articles">Browse All Articles</a>
+  </div>
+  <section class="newsletter">
+      {% include newsletter_page.html%}
+  </section>
+  <!-- <nav class="pagination" role="navigation">
+    {% if paginator.next_page %}
+      <a class="newer-posts" href="{{ site.baseurl }}/page{{paginator.next_page}}">&larr; Older posts</a>
+    {% else %}
+      <a class="newer-posts disabled">&larr; Older posts</a>
+    {% endif %}
+    <span class="page-number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.previous_page %}
+      {% if paginator.page == 2 %}
+        <a class="older-posts" href="{{ site.baseurl }}/">Newer posts &rarr;</a>
+      {% else %}
+        <a class="older-posts" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer posts &rarr;</a>
+      {% endif %}
+    {% else %}
+      <a class="older-posts disabled">Newer posts &rarr;</a>
+    {% endif %}
+  </nav> -->
+
+</main>
+
+{% include footer.html %}
