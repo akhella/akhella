@@ -14,7 +14,7 @@ logo: "/assets/images/logo.jpg"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://akhella.github.io" # the base hostname & protocol for your site
 paginate:	10 # The number of posts to show per page on your homepage
-
+permalink: /:title.html
 name: 'Amir Khella'
 bio: >
   I am an entrepreneur, product designer, software engineer, author, and startup advisor. Previously, I have designed and helped launch 12 tech startups, 5 of which have been acquired. Currently, I run several profitable products for designers and product managers, while working on my next startup.

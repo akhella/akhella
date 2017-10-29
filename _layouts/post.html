@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
-<div class="post-image"></div>
+{% if post.image != null %}
+  <div class="post-image"></div>
+{% endif %}
 <main class="content" role="main">
   <article class="post">
     <div class="post-meta">
@@ -14,10 +16,10 @@ layout: default
     </section>
     <footer class="post-footer">
       <section class="share">
-          {% include share_page.html%}
+          {% include share.html %}
       </section>
       <section class="newsletter">
-          {% include newsletter_page.html%}
+          {% include newsletter_page.html %}
       </section>
     </footer>
     <div class="bottom-teaser cf">
