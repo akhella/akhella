@@ -18,7 +18,14 @@ layout: default
                 </ul>
         
             </div> -->
-            <div class="cf frame">
+            <div class="article-list">
+              <ul>
+                {% for post in site.posts %}
+                  <li class="article-list-item"><a href="{{ site.baseurl }}{{ post.url }}" itemprop="url">{{ post.title }}</a></li>
+                {% endfor %}
+              </ul>
+            </div>
+             <!-- <div class="cf frame">
                     {% for post in site.posts %}
                       <article class="post" itemscope itemtype="http://schema.org/BlogPosting" role="article">
                         <div class="article-item">
@@ -32,14 +39,11 @@ layout: default
                             <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
                             <a class="read-more" href="{{ site.baseurl }}{{ post.url }}">Read more...</a>
                           </section>
-                          <!-- <div class="post-meta">
-                            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_long_string }}</time>
-                          </div> -->
                         </div>
                       </article>
                     {% endfor %}
                   </div>
-            </div>
+            </div>  -->
         <section class="newsletter">
                 {% include newsletter_page.html%}
         </section>

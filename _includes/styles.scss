@@ -727,3 +727,16 @@ pre {
   margin-top:50px;
 }
 
+
+.article-list{
+  ul{
+    list-style: circle;
+  }
+  .article-list-item a{
+    color: #03a87c;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 30px;
+  }
+}
