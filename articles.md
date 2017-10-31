@@ -1,5 +1,5 @@
 ---
 layout: all_posts
-title: Articles
+title: Writing
 permalink: /articles/
 ---

@@ -8,8 +8,7 @@
 # Site settings
 title: AMIR KHELLA
 
-description: >
-  
+description: Entrepreneur. Designer. Author.
 logo: "/assets/images/logo.jpg"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://akhella.github.io" # the base hostname & protocol for your site
