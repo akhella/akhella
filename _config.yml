@@ -16,7 +16,7 @@ paginate:	10 # The number of posts to show per page on your homepage
 permalink: /:title.html
 name: 'Amir Khella'
 bio: >
-  I am an entrepreneur, product designer, software engineer, author, and startup advisor. Previously, I have designed and helped launch 12 tech startups, 5 of which have been acquired. Currently, I run several profitable products for designers and product managers, while working on my next startup.
+  I am an entrepreneur, product designer, software engineer, author, and startup advisor. Previously, I have designed and helped launch 12 tech startups, 5 of which have been acquired. Currently, I run several profitable products for designers and product managers, while working on my next VR/AR startup.
 
 author_image: "/assets/images/author.jpg"
 feature_image: "/assets/images/headshot1.jpg"

@@ -270,7 +270,26 @@ body {
   @include respond-to(800) {
     padding: 0 $rs * 1;
   }
+  .bio{
+    padding-left: 25px;
+    padding-right: 25px;
 
+    h2{
+      max-width: 800px;
+      margin:auto;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 22px;
+      line-height: 1.2;
+      letter-spacing: -.002em;
+      color: #333;
+      -webkit-hyphens: none;
+      -moz-hyphens: none;
+      hyphens: none;
+      text-align: center;
+      font-weight: 400;
+    }
+  }
   article {
     padding: 20px 0;
     &:last-child {
@@ -394,6 +413,10 @@ body {
   margin-top:0px;
   padding-top:200px;
 
+  .post-meta{
+    padding-left:25px;
+    padding-right:25px;
+  }
   .post-title {
     font-weight: 800;
     font-style: normal;
@@ -782,7 +805,7 @@ nav ul li a:hover {
   color: #808080;
   text-decoration: none;
 }
-@media screen and (max-width: 650px) {
+  @media screen and (max-width: 650px) {
   
   .site-nav{
     top:0px;
