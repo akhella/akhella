@@ -382,7 +382,10 @@ body {
 .post-image{
   height:400px;
   width: 100%;
-  background-image: url({{page.image}});
+  background: linear-gradient(
+    rgba(20,20,20, .5), 
+    rgba(20,20,20, .5)),
+    url({{page.image}});
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -395,7 +398,7 @@ body {
     font-weight: 800;
     font-style: normal;
     letter-spacing: -0.04em;
-    font-size: 3rem;
+    font-size: 3.5rem;
     line-height: 1.1;
     color: #fff;
     margin-bottom: 50px;
@@ -407,9 +410,10 @@ body {
 
 
 
+
 .post {
   .post-meta {
-    font-family: $font-sans;   
+    font-family: $font-sans;
   }
   .post-title {
     font-weight: 800;

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ea eam nibh persecuti, partem habemus nominavi
+title: What do do when you don't know what you're doing
 image: http://blog.amirkhella.com/wp-content/uploads/2013/06/Ultimatum-Game.png
 excerpt: At labitur probatus eum, qui modo idque partem ne, ea has oratio sanctus cotidieque. Dicta persecuti sit ex. Discere facilis recteque sit no, in eripuit volumus adversarium vim. Ad sed meis nulla accusata. Ex posse accusam maluisset mei, id vix ignota cetero inimicus.
 featured: true
