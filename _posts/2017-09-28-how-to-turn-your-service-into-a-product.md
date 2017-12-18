@@ -2,6 +2,7 @@
 title: how to turn your service into a product
 layout: post
 image: /assets/images/posts/service-product.jpg
+featured: true
 ---
 
 Running a service business is a rollercoaster ride, and most of the time, it's not a fun one!

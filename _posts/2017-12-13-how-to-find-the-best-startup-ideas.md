@@ -2,6 +2,7 @@
 title: how to find the best startup ideas
 layout: post
 image: /assets/images/posts/startup-ideas.jpg
+featured: true
 ---
 
 What is the right process for coming up with the best product ideas?

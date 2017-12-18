@@ -2,6 +2,7 @@
 title: Should you make money or follow your passion?
 layout: post
 image: /assets/images/posts/money-passion.jpeg
+featured: true
 ---
 
 If you’re stuck in a job that you don’t like, should you listen to the popular advice “follow your passion and money will follow”? Or should you go for the equally popular advice: “you won’t make money from your passion, just keep doing what you’re already good at”?

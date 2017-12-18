@@ -2,6 +2,7 @@
 title: why you should always have a side business
 layout: post
 image: /assets/images/posts/side-business.jpg
+featured: true
 ---
 
 I want to share with you today the biggest epiphany I've had in the past ten years.

@@ -2,6 +2,7 @@
 title: The Power of One Small Idea
 layout: post
 image: /assets/images/posts/small-idea.jpg
+featured: true
 ---
 
 Have you ever dreamt of building the next Facebook or AirBnB? 

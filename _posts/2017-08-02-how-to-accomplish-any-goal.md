@@ -2,6 +2,7 @@
 title: how to accomplish any goal
 layout: post
 image: /assets/images/posts/any-goal.jpg
+featured: true
 ---
 
 This is the final part in our productivity and time management series. You can read [part 1 here]({% post_url 2017-07-12-which-task-should-you-work-on-next %}), and [part 2 here]({% post_url 2017-07-26-how-to-kee-track-of-your-big-picture %}).

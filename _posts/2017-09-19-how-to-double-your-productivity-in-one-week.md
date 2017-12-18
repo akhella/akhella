@@ -2,6 +2,7 @@
 title: This simple trick will double your productivity in one week
 layout: post
 image: /assets/images/posts/productivity.jpg
+featured: true
 ---
 
 So you’re about to work on a new task..

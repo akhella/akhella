@@ -84,10 +84,11 @@ body {
       font-style: normal;
       font-size: 16px;
       letter-spacing: normal;
-
+      text-transform: uppercase;
       a {
 
         text-decoration: none;
+        
         color: #000;
         padding-left: 15px;
         &:hover {
@@ -166,18 +167,21 @@ body {
   margin-bottom: 75px;
 
   a{
-    width: 200px;
-    margin:auto;
-    padding:25px;
+    width: 260px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
     border: 2px solid rgba(0,0,0,1);
     border-radius: 3px; 
     text-align: center;
     font-family: $font-sans;
-    font-size: 15px;
+    font-size: 18px;
     text-decoration: none;
     color:#333332;
     text-transform: uppercase;
-    font-weight: 800;
+    font-weight: 500;
   }
 }
 
